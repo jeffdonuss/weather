@@ -1,0 +1,50 @@
+body{
+    margin: 0%;
+    background-color: rgb(233 213 255);}
+h1{
+    border: 1px snow;
+    font-size: 18px;
+    font-family: sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    text-align: center;
+}
+input{
+    cursor: pointer;
+}
+  
+.subparent2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr 1fr ;
+}
+.child1{
+    grid-column: span 2;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 10px;
+    
+}
+.child2{
+    text-align: end;
+    padding: 20px;
+    font-family: sans-serif;
+   font-weight: lighter;
+   background-color: rgb(245 208 254);
+   border: 1.5px solid rgb(203, 158, 214) ;
+}
+.child3{
+text-align: start;
+padding: 20px;
+font-family: sans-serif;
+font-weight: lighter;
+background-color: rgb(245 208 254) ;
+border: 1.5px solid rgb(203, 158, 214) ;
+
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
